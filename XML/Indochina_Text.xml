@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Indochina_Text -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 2/17/2018 3:35:03 PM -->
+<GameData>
+	<FrontEndText>
+
+		<!-- Texts for Maps -->
+		<Row Tag="LOC_INDOCHINA_MAP_NAME">
+			<Text>Scrambled Indochina</Text>
+		</Row>
+		<Row Tag="LOC_INDOCHINA_MAP_DESCRIPTION">
+			<Text>An internally randomized map of Indochina.</Text>
+		</Row>
+	</FrontEndText>
+</GameData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Config -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 2/17/2018 3:30:12 PM -->
+<GameInfo>
+	<Maps>
+		<!-- for GS -->
+		<Row Domain="Maps:Expansion2Maps" File="{A099AA6A-6B39-41C7-BD49-231F7A70DD1F}Maps/Indochina_XP2.lua" Name="LOC_INDOCHINA_MAP_NAME" Description="LOC_INDOCHINA_MAP_DESCRIPTION"/>
+
+		<!-- for base game -->
+		<Row File="{A099AA6A-6B39-41C7-BD49-231F7A70DD1F}Maps/Indochina.lua" Name="LOC_INDOCHINA_MAP_NAME" Description="LOC_INDOCHINA_MAP_DESCRIPTION"/>
+	</Maps>
+
+	<DomainValueFilters>
+		<Row Domain="Maps:Expansion2Maps" Value="{A099AA6A-6B39-41C7-BD49-231F7A70DD1F}Maps/Indochina.lua" Filter="difference"/>;
+	</DomainValueFilters>
+
+	<!-- advanced settings -->
+	<Parameters>
+		<Row Key1="Map" Key2="{A099AA6A-6B39-41C7-BD49-231F7A70DD1F}Maps/Indochina.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="{A099AA6A-6B39-41C7-BD49-231F7A70DD1F}Maps/Indochina.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="{A099AA6A-6B39-41C7-BD49-231F7A70DD1F}Maps/Indochina_XP2.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="{A099AA6A-6B39-41C7-BD49-231F7A70DD1F}Maps/Indochina_XP2.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>	</Parameters>
+</GameInfo>

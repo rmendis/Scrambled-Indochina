@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Indochina -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 10/10/2017 11:56:58 PM -->
+<GameInfo>
+	<GlobalParameters>
+		<Replace Name="RIVER_SOURCE_RANGE_DEFAULT" Value="8" />
+	</GlobalParameters>
+</GameInfo>
