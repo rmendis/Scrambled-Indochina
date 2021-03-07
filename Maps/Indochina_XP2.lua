@@ -133,7 +133,7 @@ function GenerateMap()
 		world_age = world_age_normal;	-- default
 	end
 	
-	plotTypes = GeneratePlotTypes();
+	plotTypes = GeneratePlotTypes(world_age);
 	terrainTypes = GenerateTerrainTypesIndochina(plotTypes, g_iW, g_iH, g_iFlags, true);
 	ApplyBaseTerrain(plotTypes, terrainTypes, g_iW, g_iH);
 
